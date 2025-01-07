@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Penjualan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table class="sales-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Januari</th>
+                    <th>Februari</th>
+                    <th>Maret</th>
+                    <th>April</th>
+                    <th>Mei</th>
+                    <th>Juni</th>
+                    <th>Juli</th>
+                    <th>Agustus</th>
+                    <th>September</th>
+                    <th>Oktober</th>
+                    <th>November</th>
+                    <th>Desember</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022</td>
+                    <td>4,017</td>
+                    <td>6,135</td>
+                    <td>7,091</td>
+                    <td>5,841</td>
+                    <td>5,036</td>
+                    <td>4,547</td>
+                    <td>3,467</td>
+                    <td>3,970</td>
+                    <td>6,313</td>
+                    <td>3,595</td>
+                    <td>9,207</td>
+                    <td>5,945</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>2,416</td>
+                    <td>4,136</td>
+                    <td>7,935</td>
+                    <td>8,004</td>
+                    <td>9,505</td>
+                    <td>5,026</td>
+                    <td>6,108</td>
+                    <td>6,343</td>
+                    <td>9,404</td>
+                    <td>9,280</td>
+                    <td>9,287</td>
+                    <td>8,689</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="chart-container">
+            <h2>Laporan Penjualan</h2>
+            <div class="chart" id="salesChart"></div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #4e79a7"></div>
+                    <span>2022</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #e15759"></div>
+                    <span>2023</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
